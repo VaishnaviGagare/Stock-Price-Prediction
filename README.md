@@ -1,2 +1,2 @@
 # Stock-Price-Prediction
-Web app to predict stock price using RNN-LSTM model and python streamlit.
+Web app to predict stock price using LSTM model and python streamlit.
