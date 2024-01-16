@@ -11,7 +11,7 @@ end = '2019-12-31'
 st.title('Stock Price Prediction')
 
 user_input = st.text_input('Enter Stock Ticker')
-df = pd.read_csv('TSLA.csv')
+df = pd.read_csv('APPL.csv')
 df
 
 st.subheader('Data from 2010 - 2019')
@@ -84,11 +84,8 @@ y_test = y_test * scale_factor
 
 
 
-st.subheader('Predicted Price vs Original Price')
-fig3 = plt.figure(figsize = (12 , 6))
-plt.plot(y_test , 'blue' , label = 'Original Price')
-plt.plot(y_predicted , 'red' , label = 'Predicted Price')
-plt.xlabel("Time")
-plt.ylabel("Price")
-plt.legend(['Original Price', 'Predicted Price'], loc ="lower right")
-st.pyplot(fig3)
+
+
+
+
+
